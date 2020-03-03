@@ -21,7 +21,11 @@
 		<link rel="profile" href="https://gmpg.org/xfn/11">
         <?php
         wp_enqueue_style( 'bootstrap', '/wp-content/themes/twentytwenty/assets/bootstrap/css/bootstrap.css');
+
+
         ?>
+
+
 		<?php wp_head(); ?>
 
 

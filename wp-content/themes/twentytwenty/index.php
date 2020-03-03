@@ -43,20 +43,13 @@ height: 40px; padding-top: 9px; text-transform: capitalize;">Login</button>
 
 <main id="site-content" role="main" style="border: solid 1px; background: #FFFFFF;">
     <div class="container" style="margin-top: 150px; background: #FFFFFF;">
-        <div class="sections">
-
-
-            <div class="section-part">
-            <span>Flights</span>
-        </div>
-
-
-            <div class="section-part">
-            <div class="section"><a href="#" class="active-link">Non stop</a></div>
-            <div class="section"><a href="#">Best Price</a></div>
-            <div class="section"><a href="#">Airline</a></div>
-            <div class="section"><a href="#">Shedule</a></div>
-        </div>
+        <div class="row" style="padding: 0;">
+            <div class="col-md-3"><span>Flights</span></div>
+            <div class="col-md-3"></div>
+            <div class="col-md-6" style="text-align: right;"><a href="#" class="active-link">Non stop</a>
+                <a href="#" class="link-hotel">Best Price</a>
+                <a href="#" class="link-hotel">Airline</a>
+                <a href="#" class="link-hotel">Shedule</a></div>
         </div>
         <div class="definitions">
 <div class="row" style="margin-top: 50px; margin-bottom: 50px; color: #808080; box-sizing:border-box;">
@@ -69,7 +62,6 @@ height: 40px; padding-top: 9px; text-transform: capitalize;">Login</button>
     <div class="col-sm-12 col-md-2">Price</div>
 </div>
         </div>
-       <!-- <hr style="margin-top: 15px;"></hr> -->
 <div class="flight" style="border-top: solid 1px #C0C0C0;">
         <div class="row">
             <div class="col-sm-12 col-md-2"><i class="glyphicon glyphicon-plane"></i>&nbsp<b>Vueling</b><br />
@@ -150,21 +142,11 @@ height: 40px; padding-top: 9px; text-transform: capitalize;">Login</button>
             </div>
         </div>
 
-
-        <div class="flight">
-        <div class="row">
-            <div class="col-sm-12 col-md-2"></div>
-            <div class="col-sm-12 col-md-2">
-                </div>
-            <div class="col-sm-12 col-md-2">
-               </div>
-            <div class="col-sm-12 col-md-2">
-               </div>
-            <div class="col-sm-12 col-md-2">
-               </div>
-            <div class="col-sm-12 col-md-2"><a href="#" style="color: #404040; text-decoration: none;">See all fligts</a></div>
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-md-6"></div>
+              <div class="col-sm-12 col-md-6" style="text-align: right;"><a href="#" class="link-hotel" ">See all fligts</a></div>
         </div>
-    </div>
+
 
         </div>
 
@@ -174,7 +156,7 @@ height: 40px; padding-top: 9px; text-transform: capitalize;">Login</button>
 
 
     <div class="container" style="margin-top: 150px; background: #FFFFFF;">
-        <div class="sections">
+        <!-- <div class="sections">
 
 
             <div class="section-part">
@@ -186,8 +168,14 @@ height: 40px; padding-top: 9px; text-transform: capitalize;">Login</button>
                 <div class="section"><a href="#" class="active-link">Best Price</a></div>
                 <div class="section"><a href="#">Distance</a></div>
             </div>
+        </div> -->
+        <div class="row">
+            <div class="col-md-3"><span>Hotels</span></div>
+            <div class="col-md-3"></div>
+            <div class="col-md-6" style="text-align: right;"><a href="#" class="active-link">Best Price</a>
+                <a href="#" class="link-hotel">Distance</a>
+            </div>
         </div>
-
         <div class="row">
             <div class="col-sm-12 col-md-4">
                 <div class="hotels">
@@ -308,27 +296,22 @@ Hotel Paris Ouest Acheres
                     </div>
                 </div>
         </div>
- <div class="row" style="text-align: right; box-sizing: border-box; padding-right: 23px;">
-     <a href="#" style="color: #404040; text-decoration: none;">See all hotels</a> </div>
-    </div>
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-md-6"></div>
+            <div class="col-sm-12 col-md-6" style="text-align: right;"><a href="#" class="link-hotel" ">See all hotells</a></div>
+        </div>
 
     <div class="container" style="margin-top: 150px; background: #FFFFFF;">
-        <div class="sections">
-
-
-            <div class="section-part">
-                <span>Attractions</span>
-            </div>
-
-
-            <div class="section-part"  style="width: 70%; justify-content: flex-end;">
-                <div class="section"><a href="#" class="active-link">All</a></div>
-                <div class="section"><a href="#">Shopping</a></div>
-                <div class="section"><a href="#">Shows</a></div>
-                <div class="section"><a href="#">Parks</a></div>
-                <div class="section"><a href="#">Circuits</a></div>
-                <div class="section"><a href="#">Museums</a></div>
-                <div class="section"><a href="#">Monuments</a></div>
+        <div class="row">
+            <div class="col-md-2"><span>Attractions</span></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-9" style="text-align: right;"><a href="#" class="active-link">All</a>
+                <a href="#" class="link-hotel">Shopping</a>
+                <a href="#" class="link-hotel">Shows</a>
+                <a href="#" class="link-hotel">Parks</a>
+                <a href="#" class="link-hotel">Circuits</a>
+                <a href="#" class="link-hotel">Museums</a>
+                <a href="#" class="link-hotel">Monuments</a>
             </div>
         </div>
 
@@ -364,9 +347,10 @@ Hotel Paris Ouest Acheres
         </div>
     </div>
 </div>
-        <div class="row" style="text-align: right; box-sizing: border-box; padding-right: 23px;">
-            <a href="#" style="color: #404040; text-decoration: none;">See all attractions</a> </div>
-    </div>
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-md-6"></div>
+            <div class="col-sm-12 col-md-6" style="text-align: right;"><a href="#" class="link-hotel" ">See all attractions</a></div>
+        </div>
     </div> <!-- container -->
     <div class="container" style="margin-top: 150px; background: #FFFFFF;">
         <div class="sections">
@@ -433,7 +417,7 @@ Hotel Paris Ouest Acheres
     </div>
 </div> -->
 	<?php
-
+/**
 	$archive_title    = '';
 	$archive_subtitle = '';
 
@@ -449,6 +433,7 @@ Hotel Paris Ouest Acheres
 		if ( $wp_query->found_posts ) {
 			$archive_subtitle = sprintf(
 				/* translators: %s: Number of search results */
+/**
 				_n(
 					'We found %s result for your search.',
 					'We found %s results for your search.',
@@ -518,12 +503,20 @@ Hotel Paris Ouest Acheres
 
 		<?php
 	}
+
 	?>
 
-	<?php get_template_part( 'template-parts/pagination' ); ?>
+	<?php get_template_part( 'template-parts/pagination' );
+
+*/
+ ?>
+
  </main> <!-- #site-content -->
 
-<?php get_template_part( 'template-parts/footer-menus-widgets' ); ?>
+<?php get_template_part( 'template-parts/footer-menus-widgets' );
+   ?>
+
+
 
 <?php
 get_footer();
