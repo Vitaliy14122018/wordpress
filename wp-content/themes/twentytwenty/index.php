@@ -44,9 +44,9 @@ height: 40px; padding-top: 9px; text-transform: capitalize;">Login</button>
 <main id="site-content" role="main" style="border: solid 1px; background: #FFFFFF;">
     <div class="container" style="margin-top: 150px; background: #FFFFFF;">
         <div class="row" style="padding: 0;">
-            <div class="col-md-3"><span>Flights</span></div>
-            <div class="col-md-3"></div>
-            <div class="col-md-6" style="text-align: right;"><a href="#" class="active-link">Non stop</a>
+            <div class="col-sm-12 col-md-3"><span>Flights</span></div>
+            <div class="col-sm-12 col-md-3"></div>
+            <div class="col-sm-12 col-md-6" style="text-align: right;"><a href="#" class="active-link">Non stop</a>
                 <a href="#" class="link-hotel">Best Price</a>
                 <a href="#" class="link-hotel">Airline</a>
                 <a href="#" class="link-hotel">Shedule</a></div>
@@ -170,9 +170,9 @@ height: 40px; padding-top: 9px; text-transform: capitalize;">Login</button>
             </div>
         </div> -->
         <div class="row">
-            <div class="col-md-3"><span>Hotels</span></div>
-            <div class="col-md-3"></div>
-            <div class="col-md-6" style="text-align: right;"><a href="#" class="active-link">Best Price</a>
+            <div class="col-sm-12 col-md-3"><span>Hotels</span></div>
+            <div class="col-sm-12 col-md-3"></div>
+            <div class="col-sm-12 col-md-6" style="text-align: right;"><a href="#" class="active-link">Best Price</a>
                 <a href="#" class="link-hotel">Distance</a>
             </div>
         </div>
@@ -303,9 +303,9 @@ Hotel Paris Ouest Acheres
 
     <div class="container" style="margin-top: 150px; background: #FFFFFF;">
         <div class="row">
-            <div class="col-md-2"><span>Attractions</span></div>
-            <div class="col-md-1"></div>
-            <div class="col-md-9" style="text-align: right;"><a href="#" class="active-link">All</a>
+            <div class="col-sm-12 col-md-2"><span>Attractions</span></div>
+            <div class="col-sm-12 col-md-1"></div>
+            <div class="col-sm-12 col-md-9" style="text-align: right;"><a href="#" class="active-link">All</a>
                 <a href="#" class="link-hotel">Shopping</a>
                 <a href="#" class="link-hotel">Shows</a>
                 <a href="#" class="link-hotel">Parks</a>
@@ -353,31 +353,25 @@ Hotel Paris Ouest Acheres
         </div>
     </div> <!-- container -->
     <div class="container" style="margin-top: 150px; background: #FFFFFF;">
-        <div class="sections">
-
-
-            <div class="section-part">
-                <span>Trips</span>
-            </div>
-
-
-            <div class="section-part"  style="width: 45%; justify-content: flex-end;">
-                <div class="section"><a href="#" class="active-link">Best Trips</a></div>
-                <div class="section"><a href="#">Popularity</a></div>
-
+        <div class="row">
+            <div class="col-sm-12 col-md-2"><span>Trips</span></div>
+            <div class="col-sm-12 col-md-1"></div>
+            <div class="col-sm-12 col-md-9" style="text-align: right;"><a href="#" class="active-link">Best Trips</a>
+                <a href="#" class="link-hotel">Popularity</a>
             </div>
         </div>
         <div class="row">
+            <div class="col"
                 <div class="trips-foto"></div>
             </div>
                 <div class="trips-description"></div>
         </div>
 
         <div class="row">
-                <div class="trips-foto">
-            </div>
+<div class="col-sm-12 col-md-4">
+    <div class="attractions"></div>
             <div class="col-sm-12 col-md-8">
-                <div class="trips-description">
+              
                     <h3>Accec</h3>
                     <p>Text text text text text Text text text text text
                         Text text text text text Text text text text text
