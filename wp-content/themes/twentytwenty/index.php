@@ -143,7 +143,7 @@ height: 40px; padding-top: 9px; text-transform: capitalize;">Login</button>
         </div>
 
         <div class="row" style="margin-top: 20px;">
-            <div class="col-md-6"></div>
+            <div class="col-sm-12 col-md-6"></div>
               <div class="col-sm-12 col-md-6" style="text-align: right;"><a href="#" class="link-hotel" ">See all fligts</a></div>
         </div>
 
@@ -156,19 +156,7 @@ height: 40px; padding-top: 9px; text-transform: capitalize;">Login</button>
 
 
     <div class="container" style="margin-top: 150px; background: #FFFFFF;">
-        <!-- <div class="sections">
 
-
-            <div class="section-part">
-                <span>Hotels</span>
-            </div>
-
-
-            <div class="section-part"  style="width: 50%; justify-content: flex-end;">
-                <div class="section"><a href="#" class="active-link">Best Price</a></div>
-                <div class="section"><a href="#">Distance</a></div>
-            </div>
-        </div> -->
         <div class="row">
             <div class="col-sm-12 col-md-3"><span>Hotels</span></div>
             <div class="col-sm-12 col-md-3"></div>
@@ -297,7 +285,7 @@ Hotel Paris Ouest Acheres
                 </div>
         </div>
         <div class="row" style="margin-top: 20px;">
-            <div class="col-md-6"></div>
+            <div class="col-sm-12 col-md-6"></div>
             <div class="col-sm-12 col-md-6" style="text-align: right;"><a href="#" class="link-hotel" ">See all hotells</a></div>
         </div>
 
