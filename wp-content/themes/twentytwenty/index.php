@@ -369,37 +369,65 @@ Hotel Paris Ouest Acheres
 
         <div class="row">
 <div class="col-sm-12 col-md-4">
-    <div class="attractions"></div>
+		    <div class="hotels" style="padding-left: 0px;">
+    <div class="hotel-foto" style="height: 100%;"></div>
+		    </div>
+		    </div>
             <div class="col-sm-12 col-md-8">
-              
-                    <h3>Accec</h3>
+              <div class="hotels" style="padding-right: 0px;">
+		    <div class="hotel-description" style="height: 100%; border-top: solid 1px #C0C0C0; border-left: solid 0px;">
+		                       <h3>Accec</h3>
                     <p>Text text text text text Text text text text text
                         Text text text text text Text text text text text
                         Text text text text text Text text text text text
                         Text text text text text Text text text text text
                         Text text text text text Text text text text text</p>
-                </div>
-            </div>
-        </div>
+		    </div>
+		    </div>
+		    </div>
+		    </div>
         <div class="row">
-            <div class="col-sm-12 col-md-4">
-                <div class="trips-foto"></div>
-            </div>
+<div class="col-sm-12 col-md-4">
+		    <div class="hotels" style="padding-left: 0px;">
+    <div class="hotel-foto" style="height: 100%;"></div>
+		    </div>
+		    </div>
             <div class="col-sm-12 col-md-8">
-                <div class="trips-description"></div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 col-md-4">
-                <div class="trips-foto"></div>
-            </div>
+              <div class="hotels" style="padding-right: 0px;">
+		    <div class="hotel-description" style="height: 100%; border-top: solid 1px #C0C0C0; border-left: solid 0px;">
+		                       <h3>Accec</h3>
+                    <p>Text text text text text Text text text text text
+                        Text text text text text Text text text text text
+                        Text text text text text Text text text text text
+                        Text text text text text Text text text text text
+                        Text text text text text Text text text text text</p>
+		    </div>
+		    </div>
+		    </div>
+		    </div>
+		            <div class="row">
+<div class="col-sm-12 col-md-4">
+		    <div class="hotels" style="padding-left: 0px;">
+    <div class="hotel-foto" style="height: 100%;"></div>
+		    </div>
+		    </div>
             <div class="col-sm-12 col-md-8">
-                <div class="trips-description"></div>
-            </div>
+              <div class="hotels" style="padding-right: 0px;">
+		    <div class="hotel-description" style="height: 100%; border-top: solid 1px #C0C0C0; border-left: solid 0px;">
+		                       <h3>Accec</h3>
+                    <p>Text text text text text Text text text text text
+                        Text text text text text Text text text text text
+                        Text text text text text Text text text text text
+                        Text text text text text Text text text text text
+                        Text text text text text Text text text text text</p>
+		    </div>
+		    </div>
+		    </div>
+		    </div>
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-sm-12 col-md-6"></div>
+            <div class="col-sm-12 col-md-6" style="text-align: right;"><a href="#" class="link-hotel" ">See all trips</a></div>
         </div>
-        <div class="row" style="text-align: right; box-sizing: border-box; padding-right: 23px;">
-            <a href="#" style="color: #404040; text-decoration: none;">See all attractions</a> </div>
-    </div>
     </div> <!-- container -->
 </main>
     <!--
